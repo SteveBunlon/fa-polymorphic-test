@@ -38,8 +38,8 @@ SET default_table_access_method = heap;
 
 CREATE TABLE public.comments (
     id integer NOT NULL,
-    "commentableResource" public.commentableresource,
-    "commentableId" integer,
+    commentable_resource public.commentableresource,
+    commentable_id integer,
     comment text
 );
 
